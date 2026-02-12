@@ -1,3 +1,8 @@
+:root {
+    --cool-shadow-primary: 2px 2px 0 var(--bs-black), 4px 4px 0 var(--bs-primary);
+    --cool-shadow-secondary: 2px 2px 0 var(--bs-black), 4px 4px 0 var(--bs-secondary);
+}
+
 body {
     font-family: "IBM Plex Mono", monospace;
 }
@@ -10,20 +15,13 @@ h1 {
     font-family: "Fugaz One", sans-serif;
     text-transform: uppercase;
     font-size: 4em;
+    text-shadow: var(--cool-shadow-secondary);
 }
 
 h2 {
+    color: #eee;
     font-family: "Fugaz One", sans-serif;
     font-size: 2em;
-}
-
-.trophy-pic {
-    font-size: 5em;
-    aspect-ratio: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
 
 .vid-placeholder {
